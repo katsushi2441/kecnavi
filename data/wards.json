@@ -1,0 +1,475 @@
+{
+ "city": "名古屋市",
+ "asof": "2026-09-07",
+ "wards": [
+  {
+   "slug": "chikusa",
+   "name": "千種区",
+   "short": "千種",
+   "doboku": {
+    "name": "千種土木事務所",
+    "tel": "052-781-5211",
+    "lat": 35.164209,
+    "lon": 136.987802,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市千種区桜が丘１６番地"
+   },
+   "kankyo": {
+    "name": "千種環境事業所",
+    "tel": "052-771-0424",
+    "addr": "名古屋市千種区香流橋一丁目1番77号",
+    "lat": 35.190373,
+    "lon": 136.978564,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012284.html"
+   },
+   "kuyakusho": {
+    "name": "千種区役所",
+    "addr": "愛知県名古屋市千種区覚王山通８丁目３７番地",
+    "lat": 35.166527,
+    "lon": 136.946411
+   }
+  },
+  {
+   "slug": "higashi",
+   "name": "東区",
+   "short": "東",
+   "doboku": {
+    "name": "東土木事務所",
+    "tel": "052-935-8846",
+    "lat": 35.185012,
+    "lon": 136.9364,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市東区出来町二丁目８番１５号"
+   },
+   "kankyo": {
+    "name": "東環境事業所",
+    "tel": "052-723-5311",
+    "addr": "名古屋市東区出来町三丁目16番16号",
+    "lat": 35.185109,
+    "lon": 136.938109,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012289.html"
+   },
+   "kuyakusho": {
+    "name": "東区役所",
+    "addr": "愛知県名古屋市東区筒井一丁目７番７４号",
+    "lat": 35.179383,
+    "lon": 136.925956
+   }
+  },
+  {
+   "slug": "kita",
+   "name": "北区",
+   "short": "北",
+   "doboku": {
+    "name": "北土木事務所",
+    "tel": "052-911-8165",
+    "lat": 35.193676,
+    "lon": 136.91274,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市北区清水五丁目６番２号"
+   },
+   "kankyo": {
+    "name": "北環境事業所",
+    "tel": "052-981-0421",
+    "addr": "名古屋市北区辻本通1丁目39番地",
+    "lat": 35.202143,
+    "lon": 136.920426,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012292.html"
+   },
+   "kuyakusho": {
+    "name": "北区役所",
+    "addr": "愛知県名古屋市北区清水四丁目１７番１号",
+    "lat": 35.194153,
+    "lon": 136.911951
+   }
+  },
+  {
+   "slug": "nishi",
+   "name": "西区",
+   "short": "西",
+   "doboku": {
+    "name": "西土木事務所",
+    "tel": "052-522-8381",
+    "lat": 35.189288,
+    "lon": 136.895472,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市西区城西三丁目１６番３３号"
+   },
+   "kankyo": {
+    "name": "西環境事業所",
+    "tel": "052-522-4126",
+    "addr": "名古屋市西区南堀越二丁目4番70号",
+    "lat": 35.199372,
+    "lon": 136.875415,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012283.html"
+   },
+   "kuyakusho": {
+    "name": "西区役所",
+    "addr": "愛知県名古屋市西区花の木二丁目１８番１号",
+    "lat": 35.189155,
+    "lon": 136.8903
+   }
+  },
+  {
+   "slug": "nakamura",
+   "name": "中村区",
+   "short": "中村",
+   "doboku": {
+    "name": "中村土木事務所",
+    "tel": "052-481-7191",
+    "lat": 35.176899,
+    "lon": 136.86843,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市中村区松原町１丁目２３番地の１"
+   },
+   "kankyo": {
+    "name": "中村環境事業所",
+    "tel": "052-481-5391",
+    "addr": "名古屋市中村区佐古前町10番9号",
+    "lat": 35.178671,
+    "lon": 136.872541,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012287.html"
+   },
+   "kuyakusho": {
+    "name": "中村区役所",
+    "addr": "愛知県名古屋市中村区松原町１丁目２３番地の１",
+    "lat": 35.17683,
+    "lon": 136.868423
+   }
+  },
+  {
+   "slug": "naka",
+   "name": "中区",
+   "short": "中",
+   "doboku": {
+    "name": "中土木事務所",
+    "tel": "052-261-6641",
+    "lat": 35.160884,
+    "lon": 136.913177,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市中区千代田一丁目５番８号"
+   },
+   "kankyo": {
+    "name": "中環境事業所",
+    "tel": "052-251-1735",
+    "addr": "名古屋市中区新栄三丁目20番8号",
+    "lat": 35.166753,
+    "lon": 136.926537,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012285.html"
+   },
+   "kuyakusho": {
+    "name": "中区役所",
+    "addr": "愛知県名古屋市中区栄四丁目１番８号",
+    "lat": 35.168591,
+    "lon": 136.910414
+   }
+  },
+  {
+   "slug": "showa",
+   "name": "昭和区",
+   "short": "昭和",
+   "doboku": {
+    "name": "昭和土木事務所",
+    "tel": "052-751-5128",
+    "lat": 35.154058,
+    "lon": 136.950778,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市昭和区川原通４丁目１０番地"
+   },
+   "kankyo": {
+    "name": "昭和環境事業所",
+    "tel": "052-871-0504",
+    "addr": "名古屋市昭和区福江二丁目10番12号",
+    "lat": 35.144699,
+    "lon": 136.912193,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012281.html"
+   },
+   "kuyakusho": {
+    "name": "昭和区役所",
+    "addr": "愛知県名古屋市昭和区阿由知通３丁目１９番地",
+    "lat": 35.150108,
+    "lon": 136.93399
+   }
+  },
+  {
+   "slug": "mizuho",
+   "name": "瑞穂区",
+   "short": "瑞穂",
+   "doboku": {
+    "name": "瑞穂土木事務所",
+    "tel": "052-831-6161",
+    "lat": 35.129017,
+    "lon": 136.945544,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市瑞穂区田辺通３丁目４５番地の２"
+   },
+   "kankyo": {
+    "name": "瑞穂環境事業所",
+    "tel": "052-882-5300",
+    "addr": "名古屋市瑞穂区二野町6番29号",
+    "lat": 35.132313,
+    "lon": 136.917082,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012282.html"
+   },
+   "kuyakusho": {
+    "name": "瑞穂区役所",
+    "addr": "愛知県名古屋市瑞穂区瑞穂通３丁目３２番地",
+    "lat": 35.131516,
+    "lon": 136.934753
+   }
+  },
+  {
+   "slug": "atsuta",
+   "name": "熱田区",
+   "short": "熱田",
+   "doboku": {
+    "name": "熱田土木事務所",
+    "tel": "052-881-7017",
+    "lat": 35.133146,
+    "lon": 136.91291,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市熱田区六野二丁目５番１９号"
+   },
+   "kankyo": {
+    "name": "熱田環境事業所",
+    "tel": "052-671-2200",
+    "addr": "名古屋市熱田区伝馬二丁目30番6号",
+    "lat": 35.117435,
+    "lon": 136.908432,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012291.html"
+   },
+   "kuyakusho": {
+    "name": "熱田区役所",
+    "addr": "愛知県名古屋市熱田区神宮三丁目１番１５号",
+    "lat": 35.128393,
+    "lon": 136.910456
+   }
+  },
+  {
+   "slug": "nakagawa",
+   "name": "中川区",
+   "short": "中川",
+   "doboku": {
+    "name": "中川土木事務所",
+    "tel": "052-361-7581",
+    "lat": 35.138487,
+    "lon": 136.872481,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市中川区三ツ屋町２丁目８８番地"
+   },
+   "kankyo": {
+    "name": "中川環境事業所",
+    "tel": "052-361-7638",
+    "addr": "名古屋市中川区上高畑一丁目150番地",
+    "lat": 35.143881,
+    "lon": 136.858805,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012286.html"
+   },
+   "kuyakusho": {
+    "name": "中川区役所",
+    "addr": "愛知県名古屋市中川区高畑一丁目２２３番地",
+    "lat": 35.141453,
+    "lon": 136.854752
+   }
+  },
+  {
+   "slug": "minato",
+   "name": "港区",
+   "short": "港",
+   "doboku": {
+    "name": "港土木事務所",
+    "tel": "052-661-1581",
+    "lat": 35.107843,
+    "lon": 136.885507,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市港区港明一丁目１２番２０号、１１０１番３"
+   },
+   "kankyo": {
+    "name": "港環境事業所",
+    "tel": "052-382-3575",
+    "addr": "名古屋市港区十一屋一丁目70番地の3",
+    "lat": 35.093583,
+    "lon": 136.866,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012279.html"
+   },
+   "kuyakusho": {
+    "name": "港区役所",
+    "addr": "愛知県名古屋市港区港明一丁目１２番２０号",
+    "lat": 35.107841,
+    "lon": 136.885537
+   }
+  },
+  {
+   "slug": "minami",
+   "name": "南区",
+   "short": "南",
+   "doboku": {
+    "name": "南土木事務所",
+    "tel": "052-612-3211",
+    "lat": 35.098354,
+    "lon": 136.924193,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市南区荒浜町５丁目１０番地の１"
+   },
+   "kankyo": {
+    "name": "南環境事業所",
+    "tel": "052-614-6220",
+    "addr": "名古屋市南区元塩町6丁目8番地の6",
+    "lat": 35.084107,
+    "lon": 136.930301,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012290.html"
+   },
+   "kuyakusho": {
+    "name": "南区役所",
+    "addr": "愛知県名古屋市南区前浜通３丁目１０番地",
+    "lat": 35.095043,
+    "lon": 136.931412
+   }
+  },
+  {
+   "slug": "moriyama",
+   "name": "守山区",
+   "short": "守山",
+   "doboku": {
+    "name": "守山土木事務所",
+    "tel": "052-793-8531",
+    "lat": 35.212839,
+    "lon": 136.98076,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市守山区緑ヶ丘８２８番地"
+   },
+   "kankyo": {
+    "name": "守山環境事業所",
+    "tel": "052-798-3771",
+    "addr": "名古屋市守山区弁天が丘606番地",
+    "lat": 35.211528,
+    "lon": 136.998547,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012280.html"
+   },
+   "kuyakusho": {
+    "name": "守山区役所",
+    "addr": "愛知県名古屋市守山区小幡一丁目３番１号",
+    "lat": 35.203412,
+    "lon": 136.976349
+   }
+  },
+  {
+   "slug": "midori",
+   "name": "緑区",
+   "short": "緑",
+   "doboku": {
+    "name": "緑土木事務所",
+    "tel": "052-625-4940",
+    "lat": 35.072195,
+    "lon": 136.95635,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市緑区左京山３０２７番地の１"
+   },
+   "kankyo": {
+    "name": "緑環境事業所",
+    "tel": "052-891-0976",
+    "addr": "名古屋市緑区鳴海町字天白90番地",
+    "lat": 35.093015,
+    "lon": 136.945905,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012294.html"
+   },
+   "kuyakusho": {
+    "name": "緑区役所",
+    "addr": "愛知県名古屋市緑区青山二丁目１５番地",
+    "lat": 35.070819,
+    "lon": 136.952138
+   }
+  },
+  {
+   "slug": "meito",
+   "name": "名東区",
+   "short": "名東",
+   "doboku": {
+    "name": "名東土木事務所",
+    "tel": "052-703-1300",
+    "lat": 35.171558,
+    "lon": 137.0126,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市名東区上社五丁目１１０１番地"
+   },
+   "kankyo": {
+    "name": "名東環境事業所",
+    "tel": "052-773-3214",
+    "addr": "名古屋市名東区藤里町101番地",
+    "lat": 35.190243,
+    "lon": 137.011964,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012293.html"
+   },
+   "kuyakusho": {
+    "name": "名東区役所",
+    "addr": "愛知県名古屋市名東区上社二丁目５０番地",
+    "lat": 35.175861,
+    "lon": 137.010468
+   }
+  },
+  {
+   "slug": "tempaku",
+   "name": "天白区",
+   "short": "天白",
+   "doboku": {
+    "name": "天白土木事務所",
+    "tel": "052-803-6644",
+    "lat": 35.12383,
+    "lon": 136.983163,
+    "hours": "平日（職員の確認は平日8:45〜17:15。緊急時は電話）",
+    "src": "https://www.city.nagoya.jp/ryokuseidoboku/soshiki_list.html",
+    "addr": "愛知県名古屋市天白区横町７１４番地"
+   },
+   "kankyo": {
+    "name": "天白環境事業所",
+    "tel": "052-833-4031",
+    "addr": "名古屋市天白区元八事五丁目231番地",
+    "lat": 35.130148,
+    "lon": 136.979833,
+    "hours": "月〜金 8:00〜16:45（年末年始除く）",
+    "src": "https://www.city.nagoya.jp/kurashi/gomi/1012278/1012288.html"
+   },
+   "kuyakusho": {
+    "name": "天白区役所",
+    "addr": "愛知県名古屋市天白区島田二丁目２０１番地",
+    "lat": 35.122616,
+    "lon": 136.975006
+   }
+  }
+ ],
+ "sources": {
+  "doboku": "名古屋市 緑政土木局 連絡先一覧",
+  "kankyo": "名古屋市 各区の環境事業所",
+  "kuyakusho": "名古屋市オープンデータ 施設カルテ（CC BY 4.0）"
+ }
+}
