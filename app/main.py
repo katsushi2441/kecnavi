@@ -259,7 +259,9 @@ def ward_links(pre):
 def giin_note():
     return ('<div class="note">議員事務所・政党支部の方へ: このページは「困りごとの通報先案内」という一般的な情報発信として、'
             '事務所の名前で運用できます（特定の方への供与ではありません）。買い切り・ホワイトラベルの詳細は '
-            '<a href="https://kurage.exbridge.jp/bousai-giin.html">議員・政党事務所むけ 地域防災情報サービス</a> をご覧ください。</div>')
+            '<a href="https://kurage.exbridge.jp/bousai-giin.html">議員・政党事務所むけ 地域防災情報サービス</a> をご覧ください。'
+            '自社サーバーに置く買い切り版（ソース同梱・他の自治体はデータ2ファイル差し替え）は '
+            '<a href="https://kappstore.exbridge.jp/app.php?id=32502ed71cea6bcf&ref=kecnavi">Kurage App Store</a> にあります。</div>')
 
 
 def src_block(extra=""):
