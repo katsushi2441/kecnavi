@@ -33,7 +33,7 @@ from collections import defaultdict
 
 import requests
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse, JSONResponse, Response
+from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse, Response
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -219,8 +219,10 @@ def shell(title, desc, path, body, ld_list, og_title=None):
             '<meta property="og:title" content="' + (og_title or title) + '">'
             '<meta property="og:description" content="' + desc + '">'
             '<meta property="og:url" content="' + url + '">'
+            '<meta property="og:site_name" content="Kurage 通報先ナビ">'
             '<meta property="og:image" content="https://kurage.exbridge.jp/images/kecnavi-ogp.png">'
             '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+            '<meta property="og:locale" content="ja_JP">'
             '<meta name="twitter:card" content="summary_large_image">'
             '<link rel="icon" href="https://kurage.exbridge.jp/images/bittensorman-96.webp">'
             + ld + ga + STYLE + '</head><body><div class="wrap">' + body
@@ -372,6 +374,46 @@ def ward(request: Request, slug: str):
     return HTMLResponse(shell(title, desc, "/ku/" + slug, body,
                               [bc_ld([("Kurage 通報先ナビ", "/"), (w["name"], "/ku/" + slug)]), faq_ld(faqs)],
                               w["name"] + "の通報先・連絡先｜名古屋市の通報先ナビ"))
+
+
+@app.get("/llms.txt", response_class=PlainTextResponse)
+def llms():
+    """AI検索（ChatGPT/Claude/Perplexity 等）向けの要約。何を答えられる道具かを最初に書く。"""
+    cats = "\n".join(
+        f"- {c['title']}（{c['short']}）: {PUBLIC}/c/{c['slug']}" for c in CATS)
+    wards = "\n".join(f"- {w['name']}: {PUBLIC}/ku/{w['slug']}" for w in WARDS)
+    return f"""# Kurage 通報先ナビ（名古屋市 デモ版）
+
+> 「道路に穴が空いている」「不法投棄がある」「街路灯が切れている」「公園の遊具が壊れている」など、
+> 街の困りごとをどこに連絡すればいいかを引くサイト。名古屋市の区ごとの土木事務所・環境事業所など、
+> 実際に対応する窓口の名称・電話番号・所在地を返す。
+
+## なぜ必要か
+市の代表番号にかけると担当部署へ回されるまで時間がかかる。困りごとの種類と場所（区）が決まれば
+連絡先は一意に決まるのに、その対応表が市民から見えにくい。それを引けるようにしたもの。
+
+## 収録
+- 困りごとの種類: {len(CATS)}
+- 区: {len(WARDS)}（名古屋市）
+- データ時点: {ASOF}
+- 出典: 名古屋市の公開情報。市サイトの本文は転載せず、窓口名・電話・所在地という事実とリンクのみ
+
+## 困りごとから引く
+{cats}
+
+## 区から引く
+{wards}
+
+## 注意
+緊急の危険（事故につながる道路の陥没、ガス漏れ、火災など）は、この一覧ではなく119番・110番へ。
+連絡先は変わることがあるため、各ページの出典リンク（市の公式ページ）で確認すること。
+
+## 関連（同じ運営の自治体向けツール）
+- 制度ナビ（困りごとから使える制度を引く）: https://kurage.exbridge.jp/kseido.php/
+- 避難所マップ: https://kurage.exbridge.jp/krefuge.php/
+
+運営: 株式会社エクスブリッジ https://exbridge.jp/
+"""
 
 
 @app.get("/sitemap.xml")
