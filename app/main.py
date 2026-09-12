@@ -212,6 +212,9 @@ def shell(title, desc, path, body, ld_list, og_title=None):
           "s.async=true;document.head.appendChild(s)})();</script>")
     return ('<!doctype html><html lang="ja"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<script async src="https://www.googletagmanager.com/gtag/js?id=G-BP0650KDFR"></script>'
+            '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}'
+            "gtag('js',new Date());gtag('config','G-BP0650KDFR');</script>"
             "<title>" + title + "</title>"
             '<meta name="description" content="' + desc + '">'
             '<link rel="canonical" href="' + url + '">'
