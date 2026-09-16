@@ -273,7 +273,10 @@ def src_block(extra=""):
     return ('<p class="src">出典: 土木事務所の電話番号=名古屋市 緑政土木局「連絡先一覧」／環境事業所の電話番号・住所=名古屋市「各区の環境事業所」／'
             "区役所の所在地・座標=名古屋市オープンデータ「施設カルテ」(CC BY 4.0)／"
             "住所検索=国土地理院 地名検索API。" + extra +
-            " 本ナビは案内であり、通報や相談を代行するものではありません。番号・受付時間は変わることがあります（時点 " + ASOF + "）。</p>")
+            " 本ナビは案内であり、通報や相談を代行するものではありません。番号・受付時間は変わることがあります（時点 " + ASOF + "）。</p>"
+            '<p class="src"><a href="https://exbridge.jp/politech/?ref=kurage-kecnavi" rel="noopener">住民の困りごと196語から探す</a> ・ '
+            '<a href="https://exbridge.jp/ai-system/?ref=kurage-kecnavi" rel="noopener">AIでできること</a> ・ '
+            '<a href="https://exbridge.jp/solution/seito.html?ref=kurage-kecnavi" rel="noopener">政党・議員事務所むけ</a></p>')
 
 
 def steps_html(cat, pre):
